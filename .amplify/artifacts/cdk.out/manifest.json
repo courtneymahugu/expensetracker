@@ -1,0 +1,1221 @@
+{
+  "version": "36.0.18",
+  "artifacts": {
+    "amplify-expensetracker-courtneymahugu-sandbox-a36834abdf.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-expensetracker-courtneymahugu-sandbox-a36834abdf.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-expensetracker-courtneymahugu-sandbox-a36834abdf": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-expensetracker-courtneymahugu-sandbox-a36834abdf.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/a50a95dc81c495436c558cd40ab8a36a5dc40f10dd558cc200b8fb518edfb542.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-expensetracker-courtneymahugu-sandbox-a36834abdf.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-expensetracker-courtneymahugu-sandbox-a36834abdf.assets"
+      ],
+      "metadata": {
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthUserPoolFFCABFDCRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthUserPoolFFCABFDCRef"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthUserPoolAppClient9DF5E10FRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthUserPoolAppClient9DF5E10FRef"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthIdentityPool5783E424Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthIdentityPool5783E424Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthauthenticatedUserRoleE9F9EA46Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthauthenticatedUserRoleE9F9EA46Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth/amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthunauthenticatedUserRole0CAE7930Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthunauthenticatedUserRole0CAE7930Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/GraphQLAPI": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "@predictions is deprecated. This functionality will be removed in the next major release.",
+            "trace": [
+              "Annotations.addMessage (/Users/courtneymahugu/node_modules/aws-cdk-lib/core/lib/annotations.js:1:1608)",
+              "Annotations.addWarning (/Users/courtneymahugu/node_modules/aws-cdk-lib/core/lib/annotations.js:1:931)",
+              "PredictionsTransformer.PredictionsTransformer.generateResolvers (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-predictions-transformer/src/graphql-predictions-transformer.ts:158:39)",
+              "GraphQLTransform.transform (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-transformer-core/src/transformation/transform.ts:318:21)",
+              "executeTransform (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-transformer/src/graphql-transformer.ts:166:15)",
+              "new AmplifyGraphqlApi (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/src/amplify-graphql-api.ts:225:21)",
+              "DataGenerator.generateContainerEntry (/Users/courtneymahugu/node_modules/@aws-amplify/backend-data/src/factory.ts:236:20)",
+              "SingletonConstructContainer.getOrCompute (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/engine/singleton_construct_container.ts:51:19)",
+              "DataFactory.getInstance (/Users/courtneymahugu/node_modules/@aws-amplify/backend-data/src/factory.ts:109:31)",
+              "<anonymous> (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:115:68)",
+              "Array.forEach (<anonymous>)",
+              "new BackendFactory (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:111:40)",
+              "defineBackend (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:155:19)",
+              "<anonymous> (/Users/courtneymahugu/expensetracker/amplify/backend.ts:8:1)",
+              "ModuleJob.run (node:internal/modules/esm/module_job:234:25)",
+              "async ModuleLoader.import (node:internal/modules/esm/loader:473:24)",
+              "async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)"
+            ]
+          },
+          {
+            "type": "aws:cdk:warning",
+            "data": "@manyToMany is deprecated. This functionality will be removed in the next major release.",
+            "trace": [
+              "Annotations.addMessage (/Users/courtneymahugu/node_modules/aws-cdk-lib/core/lib/annotations.js:1:1608)",
+              "Annotations.addWarning (/Users/courtneymahugu/node_modules/aws-cdk-lib/core/lib/annotations.js:1:931)",
+              "ManyToManyTransformer.ManyToManyTransformer.generateResolvers (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-relational-transformer/src/graphql-many-to-many-transformer.ts:516:35)",
+              "GraphQLTransform.transform (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-transformer-core/src/transformation/transform.ts:318:21)",
+              "executeTransform (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-transformer/src/graphql-transformer.ts:166:15)",
+              "new AmplifyGraphqlApi (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/src/amplify-graphql-api.ts:225:21)",
+              "DataGenerator.generateContainerEntry (/Users/courtneymahugu/node_modules/@aws-amplify/backend-data/src/factory.ts:236:20)",
+              "SingletonConstructContainer.getOrCompute (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/engine/singleton_construct_container.ts:51:19)",
+              "DataFactory.getInstance (/Users/courtneymahugu/node_modules/@aws-amplify/backend-data/src/factory.ts:109:31)",
+              "<anonymous> (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:115:68)",
+              "Array.forEach (<anonymous>)",
+              "new BackendFactory (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:111:40)",
+              "defineBackend (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:155:19)",
+              "<anonymous> (/Users/courtneymahugu/expensetracker/amplify/backend.ts:8:1)",
+              "ModuleJob.run (node:internal/modules/esm/module_job:234:25)",
+              "async ModuleLoader.import (node:internal/modules/esm/loader:473:24)",
+              "async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)"
+            ]
+          },
+          {
+            "type": "aws:cdk:warning",
+            "data": "@searchable is deprecated. This functionality will be removed in the next major release.",
+            "trace": [
+              "Annotations.addMessage (/Users/courtneymahugu/node_modules/aws-cdk-lib/core/lib/annotations.js:1:1608)",
+              "Annotations.addWarning (/Users/courtneymahugu/node_modules/aws-cdk-lib/core/lib/annotations.js:1:931)",
+              "SearchableModelTransformer.SearchableModelTransformer.generateResolvers (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-searchable-transformer/src/graphql-searchable-transformer.ts:286:35)",
+              "GraphQLTransform.transform (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-transformer-core/src/transformation/transform.ts:318:21)",
+              "executeTransform (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/node_modules/@aws-amplify/graphql-transformer/src/graphql-transformer.ts:166:15)",
+              "new AmplifyGraphqlApi (/Users/courtneymahugu/node_modules/@aws-amplify/graphql-api-construct/src/amplify-graphql-api.ts:225:21)",
+              "DataGenerator.generateContainerEntry (/Users/courtneymahugu/node_modules/@aws-amplify/backend-data/src/factory.ts:236:20)",
+              "SingletonConstructContainer.getOrCompute (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/engine/singleton_construct_container.ts:51:19)",
+              "DataFactory.getInstance (/Users/courtneymahugu/node_modules/@aws-amplify/backend-data/src/factory.ts:109:31)",
+              "<anonymous> (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:115:68)",
+              "Array.forEach (<anonymous>)",
+              "new BackendFactory (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:111:40)",
+              "defineBackend (/Users/courtneymahugu/node_modules/@aws-amplify/backend/src/backend_factory.ts:155:19)",
+              "<anonymous> (/Users/courtneymahugu/expensetracker/amplify/backend.ts:8:1)",
+              "ModuleJob.run (node:internal/modules/esm/module_job:234:25)",
+              "async ModuleLoader.import (node:internal/modules/esm/loader:473:24)",
+              "async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)"
+            ]
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2ApiId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager/amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent55E01BA9Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent55E01BA9Arn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ExpenseTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Expense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ExpenseTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExpenseTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Expense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/CustomTableExpenseTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Expense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/GetAttExpenseTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttExpenseTableStreamArn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/GetAttExpenseTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttExpenseTableName"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ExpenseIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ExpenseIAMRole"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ExpenseIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExpenseIAMRole6AD977E6"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ExpenseIAMRole"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ExpenseDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ExpenseTable"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ExpenseDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExpenseDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ExpenseTable"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/QuerygetExpenseauth0Function/QuerygetExpenseauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetExpenseauth0FunctionQuerygetExpenseauth0FunctionAppSyncFunctionF30409CF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetExpenseauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/QuerygetExpensepostAuth0Function/QuerygetExpensepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetExpensepostAuth0FunctionQuerygetExpensepostAuth0FunctionAppSyncFunction469B96B6"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetExpensepostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/QueryGetExpenseDataResolverFn/QueryGetExpenseDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetExpenseDataResolverFnQueryGetExpenseDataResolverFnAppSyncFunction851CEC7E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetExpenseDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/queryGetExpenseResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getExpense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/QuerylistExpensesauth0Function/QuerylistExpensesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistExpensesauth0FunctionQuerylistExpensesauth0FunctionAppSyncFunction9B3B4BE4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistExpensesauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/QuerylistExpensespostAuth0Function/QuerylistExpensespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistExpensespostAuth0FunctionQuerylistExpensespostAuth0FunctionAppSyncFunctionBC8CB2BC"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistExpensespostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/QueryListExpensesDataResolverFn/QueryListExpensesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListExpensesDataResolverFnQueryListExpensesDataResolverFnAppSyncFunction49A7EA97"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListExpensesDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/queryListExpensesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listExpenses"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationcreateExpenseinit0Function/MutationcreateExpenseinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateExpenseinit0FunctionMutationcreateExpenseinit0FunctionAppSyncFunction13417073"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateExpenseinit0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationcreateExpenseauth0Function/MutationcreateExpenseauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateExpenseauth0FunctionMutationcreateExpenseauth0FunctionAppSyncFunction91BA7CBE"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateExpenseauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationcreateExpensepostAuth0Function/MutationcreateExpensepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateExpensepostAuth0FunctionMutationcreateExpensepostAuth0FunctionAppSyncFunction4BF63675"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateExpensepostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationCreateExpenseDataResolverFn/MutationCreateExpenseDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateExpenseDataResolverFnMutationCreateExpenseDataResolverFnAppSyncFunction90287C1C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateExpenseDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/mutationCreateExpenseResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createExpense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationupdateExpenseinit0Function/MutationupdateExpenseinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateExpenseinit0FunctionMutationupdateExpenseinit0FunctionAppSyncFunction1D5702A1"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateExpenseinit0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationupdateExpenseauth0Function/MutationupdateExpenseauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateExpenseauth0FunctionMutationupdateExpenseauth0FunctionAppSyncFunction621469DD"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateExpenseauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationupdateExpensepostAuth0Function/MutationupdateExpensepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateExpensepostAuth0FunctionMutationupdateExpensepostAuth0FunctionAppSyncFunction0CBCC099"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateExpensepostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationUpdateExpenseDataResolverFn/MutationUpdateExpenseDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateExpenseDataResolverFnMutationUpdateExpenseDataResolverFnAppSyncFunctionA57E4FFF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateExpenseDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/mutationUpdateExpenseResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateExpense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationdeleteExpenseauth0Function/MutationdeleteExpenseauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteExpenseauth0FunctionMutationdeleteExpenseauth0FunctionAppSyncFunctionD622F394"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteExpenseauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationdeleteExpensepostAuth0Function/MutationdeleteExpensepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteExpensepostAuth0FunctionMutationdeleteExpensepostAuth0FunctionAppSyncFunctionA0E9EBD9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteExpensepostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/MutationDeleteExpenseDataResolverFn/MutationDeleteExpenseDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteExpenseDataResolverFnMutationDeleteExpenseDataResolverFnAppSyncFunctionD6073898"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteExpenseDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/mutationDeleteExpenseResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteExpense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptiononCreateExpenseauth0Function/SubscriptiononCreateExpenseauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateExpenseauth0FunctionSubscriptiononCreateExpenseauth0FunctionAppSyncFunction8D177E04"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateExpenseauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptiononCreateExpensepostAuth0Function/SubscriptiononCreateExpensepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateExpensepostAuth0FunctionSubscriptiononCreateExpensepostAuth0FunctionAppSyncFunction80F01BFF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateExpensepostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptionOnCreateExpenseDataResolverFn/SubscriptionOnCreateExpenseDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateExpenseDataResolverFnSubscriptionOnCreateExpenseDataResolverFnAppSyncFunction88F175AF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateExpenseDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/subscriptionOnCreateExpenseResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateExpense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptiononUpdateExpenseauth0Function/SubscriptiononUpdateExpenseauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateExpenseauth0FunctionSubscriptiononUpdateExpenseauth0FunctionAppSyncFunctionEA13C61B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateExpenseauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptiononUpdateExpensepostAuth0Function/SubscriptiononUpdateExpensepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateExpensepostAuth0FunctionSubscriptiononUpdateExpensepostAuth0FunctionAppSyncFunction3EDB63B5"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateExpensepostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptionOnUpdateExpenseDataResolverFn/SubscriptionOnUpdateExpenseDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateExpenseDataResolverFnSubscriptionOnUpdateExpenseDataResolverFnAppSyncFunction8D36671F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateExpenseDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/subscriptionOnUpdateExpenseResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateExpense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptiononDeleteExpenseauth0Function/SubscriptiononDeleteExpenseauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteExpenseauth0FunctionSubscriptiononDeleteExpenseauth0FunctionAppSyncFunctionCF172D45"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteExpenseauth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptiononDeleteExpensepostAuth0Function/SubscriptiononDeleteExpensepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteExpensepostAuth0FunctionSubscriptiononDeleteExpensepostAuth0FunctionAppSyncFunctionEAC3C516"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteExpensepostAuth0Function"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/SubscriptionOnDeleteExpenseDataResolverFn/SubscriptionOnDeleteExpenseDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteExpenseDataResolverFnSubscriptionOnDeleteExpenseDataResolverFnAppSyncFunctionD5BFCBAB"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteExpenseDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/subscriptionOnDeleteExpenseResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteExpenseResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteExpense"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/ExpenseOwnerDataResolverFn/ExpenseOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExpenseOwnerDataResolverFnExpenseOwnerDataResolverFnAppSyncFunction16BC0E2B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "ExpenseOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/expenseOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExpenseownerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Expense.owner"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceCE059878Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent55E01BA9Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceCE059878Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyTableA446CC45"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2ApiId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPINONEDSDE313AAAName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPINONEDSDE313AAAName"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthauthenticatedUserRoleE9F9EA46Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthauthenticatedUserRoleE9F9EA46Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthunauthenticatedUserRole0CAE7930Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthunauthenticatedUserRole0CAE7930Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthIdentityPool5783E424Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthIdentityPool5783E424Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/Expense.NestedStack/Expense.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataExpenseNestedStackExpenseNestedStackResource456F16BB"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthUserPoolFFCABFDCRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthUserPoolFFCABFDCRef"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthauthenticatedUserRoleE9F9EA46Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthauthenticatedUserRoleE9F9EA46Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthunauthenticatedUserRole0CAE7930Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthunauthenticatedUserRole0CAE7930Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/reference-to-amplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputs.amplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthIdentityPool5783E424Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyexpensetrackercourtneymahugusandboxa36834abdfauthNestedStackauthNestedStackResource004B2C85Outputsamplifyexpensetrackercourtneymahugusandboxa36834abdfauthamplifyAuthIdentityPool5783E424Ref"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2ApiId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2GraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataGraphQLAPI6AEA6EF2GraphQLUrl"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data/amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB6DF88F89DestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyexpensetrackercourtneymahugusandboxa36834abdfdataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB6DF88F89DestinationBucketArn"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-expensetracker-courtneymahugu-sandbox-a36834abdf/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-expensetracker-courtneymahugu-sandbox-a36834abdf"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
